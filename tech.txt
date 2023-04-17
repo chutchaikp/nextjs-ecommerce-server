@@ -1,0 +1,14 @@
+### Tech
+
+- Next JS
+- Strapi - Headless CMS
+= Stripe - Payment gateway
+
+### Related Repo
+
+?
+?
+
+### Learn
+
+https://www.youtube.com/watch?v=8xf78RNtfHY&list=PLJUyh5ULdyuAwe4HoMNJAVm7GAAddxwFT&index=1&t=1099s

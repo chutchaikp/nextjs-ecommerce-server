@@ -41,6 +41,7 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
 				automatic_payment_methods: {
 					enabled: true
 				},
+				description: "Hello",
 			})
 
 			debugger;

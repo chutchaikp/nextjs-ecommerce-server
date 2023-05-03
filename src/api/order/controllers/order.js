@@ -26,8 +26,9 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
 	},
 	async create(ctx) {
 		try {
-			debugger;
-			const { products, email, currency, amount, } = ctx.request.body;
+			// debugger;
+			// const { products, email, currency, amount, } = ctx.request.body;
+			const { data: { products, email, currency, amount, } } = ctx.request.body;
 			const secretKey = process.env.STRIPE_SECRET_KEY;
 			const stripe = new Stripe(secretKey)
 			const _amount = parseInt(amount * 100)
